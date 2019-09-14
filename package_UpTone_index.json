@@ -1,0 +1,63 @@
+{
+  "packages":
+  [
+    {
+      "name": "UpTone",
+      "maintainer": "UpTone Audio",
+      "websiteURL": "https://uptoneaudio.com",
+      "email" : "crespi@sti.ne",
+      "platforms":
+      [
+        {
+          "name": "Uptone Boards",
+          "architecture": "samd",
+          "version": "0.9.7",
+          "category": "Contributed",
+          "url": "https://github.com/johnswenson1/UpTone_arduino_boards/blob/master/UpTone-0.9.7.zip",
+          "archiveFileName": "UpTone-0.9.7.zip",
+          "checksum": "SHA-256:0cc9f7f84999fadd79d274c6928d43ad557e7676475bb305656ebb64aef4772c",
+          "size": "7158525",
+          "boards": [
+            {
+              "name": "UpTone EtherREGEN A"
+            },
+            {
+              "name": "UpTone EtherREGEN B"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
