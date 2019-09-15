@@ -15,8 +15,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/johnswenson1/UpTone_arduino_boards/master/UpTone-0.9.7.zip",
           "archiveFileName": "UpTone-0.9.7.zip",
-          "checksum": "MD5:ba6e930ca7300c29cb803bd099fb08e4",
-          "size": "7158580",
+          "checksum": "MD5:dda256f0288f86b15d5e6b2c531da515",
+          "size": "7158583",
           "boards": [
             {
               "name": "UpTone EtherREGEN A"
